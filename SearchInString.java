@@ -4,11 +4,9 @@ public class SearchInString {
     public static void main(String[] args) {
         // search in a string
         String name = "KRISH";
-        char target = 'H';
+        char target = 'T';
         System.out.println(search(name, target));
     }
-    
-
 
     static boolean search(String str, char target) {
         if (str.length() == 0)
